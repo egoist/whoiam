@@ -1,6 +1,6 @@
 {
   "name": "whoiam",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "Get IP in terminal",
   "license": "MIT",
   "repository": "egoist/whoiam",
@@ -23,7 +23,8 @@
   "keywords": [
     "cli-app",
     "cli",
-    ""
+    "whoiam",
+    "ip"
   ],
   "dependencies": {
     "chalk": "^1.1.1",
