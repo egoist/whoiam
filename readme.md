@@ -2,7 +2,7 @@
 
 > `whoiam` in terminal
 
-![preview](https://ooo.0o0.ooo/2015/12/28/5681043dcb04b.png)
+![preview](https://ooo.0o0.ooo/2015/12/28/56810ebf67c41.png)
 
 ## CLI
 

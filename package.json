@@ -1,6 +1,6 @@
 {
   "name": "whoiam",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Get IP in terminal",
   "license": "MIT",
   "repository": "egoist/whoiam",
@@ -31,6 +31,7 @@
     "io-spin": "^0.2.2",
     "meow": "^3.6.0",
     "node-fetch": "^1.3.3",
+    "shelljs": "^0.5.3",
     "update-notifier": "^0.6.0"
   },
   "devDependencies": {
