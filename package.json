@@ -1,6 +1,6 @@
 {
   "name": "whoiam",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Get IP in terminal",
   "license": "MIT",
   "repository": "egoist/whoiam",
@@ -11,7 +11,7 @@
   },
   "bin": "cli.js",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4.0.0"
   },
   "scripts": {
     "test": "xo && ava"

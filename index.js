@@ -1,8 +1,8 @@
 'use strict';
-var fetch = require('node-fetch');
-var Spin = require('io-spin');
-var chalk = require('chalk');
-var spin = new Spin('Box1', 'Let me guess');
+const fetch = require('node-fetch');
+const Spin = require('io-spin');
+const chalk = require('chalk');
+const spin = new Spin('Box1', 'Let me guess');
 
 function fixedWidth(string, minWidth) {
 	minWidth = minWidth || 10;
@@ -12,10 +12,8 @@ function fixedWidth(string, minWidth) {
 module.exports = function () {
 	spin.start();
 	fetch('http://ipinfo.io/json')
-		.then(function (data) {
-			return data.json();
-		})
-		.then(function (data) {
+		.then(data => data.json())
+		.then(data => {
 			spin.stop();
 			for (var name in data) {
 				if (data[name]) {
@@ -23,7 +21,7 @@ module.exports = function () {
 				}
 			}
 		})
-		.catch(function (err) {
+		.catch(err => {
 			spin.stop();
 			console.log(err);
 		});

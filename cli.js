@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 'use strict';
-var meow = require('meow');
-var updateNotifier = require('update-notifier');
-var whoiam = require('./');
-var pkg = require('./package');
+const meow = require('meow');
+const updateNotifier = require('update-notifier');
+const whoiam = require('./');
+const pkg = require('./package');
 
 updateNotifier({pkg: pkg});
-var cli = meow([
+const cli = meow([
 	'Usage',
 	'  $ whoiam'
 ]);
